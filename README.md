@@ -23,7 +23,7 @@ reinforcement-learning-algorithms/
 │   ├── optimistic.py            # Implementation of optimistic initial values
 │   ├── ucb.py                   # Implementation of UCB approach
 │   ├── gradient_based.py        # Implementation of gradient-based bandits
-│   ├── non_stationary.py         # Implementation of non-stationary bandits
+│   ├── non_stationary.py        # Implementation of non-stationary bandits
 │   └── __init__.py              # Module initialization
 │
 ├── bandit/testfiles/
