@@ -18,20 +18,20 @@ The multi-armed bandit is a classic RL problem where the agent must decide which
 ```
 reinforcement-learning-algorithms/
 │
-├── bandit/mainfiles/
+├── bandit/main/
 │   ├── epsilon_greedy.py        # Implementation of epsilon-greedy approach
 │   ├── optimistic.py            # Implementation of optimistic initial values
 │   ├── ucb.py                   # Implementation of UCB approach
 │   ├── gradient_based.py        # Implementation of gradient-based bandits
-│   ├── nonstationary.py         # Implementation of non-stationary bandits
+│   ├── non_stationary.py         # Implementation of non-stationary bandits
 │   └── __init__.py              # Module initialization
 │
 ├── bandit/testfiles/
-│   ├── testbed_epsilon_greedy.py   # Test for epsilon-greedy
-│   ├── testbed_opt.py              # Test for optimistic approach
-│   ├── testbed_ucb.py              # Test for UCB
-│   ├── testbed_gradient_based.py   # Test for gradient-based bandits
-│   └── testbed_nonstationary.py    # Test for non-stationary bandits
+│   ├── test_epsilon_greedy.py   # Test for epsilon-greedy
+│   ├── test_opt.py              # Test for optimistic approach
+│   ├── test_ucb.py              # Test for UCB
+│   ├── test_gradient_based.py   # Test for gradient-based bandits
+│   └── test_nonstationary.py    # Test for non-stationary bandits
 │
 ├── README.md                    # Project overview and usage
 └── requirements.txt             # Dependencies
